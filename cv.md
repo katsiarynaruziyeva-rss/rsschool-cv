@@ -39,8 +39,8 @@ alert( result );
 ## Education
 
   * **University:** 
-      1. VITEBSK STATE ORDER OF PEOPLES’ FRIENDSHIP MEDICAL UNIVERSITY
-      1. MITSO
+  1. VITEBSK STATE ORDER OF PEOPLES’ FRIENDSHIP MEDICAL UNIVERSITY
+  2. MITSO
   * **Courses :**
       * TeachMreSkills
       * Udemy (React+Redux - профессиональная разработка)
