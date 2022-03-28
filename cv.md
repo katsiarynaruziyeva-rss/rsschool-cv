@@ -6,7 +6,7 @@
   * **Location :** Vilnius, Lithuania
   * **Phone:** +370 6 937-23-20
   * **Email:** katsiarynaruziyeva@gmail.com
-  * **GitGub:** katsiarynaruziyeva
+  * **GitGub:** [katsiarynaruziyeva](https://github.com/katsiarynaruziyeva)
 
 ## About me
 
@@ -22,18 +22,29 @@
   * Redux
   * TypeScript
 
-## Code Exaple
+## Code Example
 ```
-function sum(a, b) {
-  return a + b;
-}
+function NewsCard({ newsCardDetails, type }: { newsCardDetails: NewsInterface; type?: NewsDataTypes }) {
+  const { id, title, image, organization, excerpt, published_at } = newsCardDetails;
 
-let result = sum(1, 2);
-alert( result );
+  const location = useLocation();
+
+  const newsImage = image ? image : newsImageMock;
+
+  const getFormattedData = (date: Date) => {
+    return format(new Date(date), "dd MMM, yyyy 'в' hh:mm", {
+      locale: ru,
+    });
+  };
+
+  const getCategorySearchParams = (category: NewsDataTypes): string => {
+    return '?' + new URLSearchParams({ category: category }).toString();
+  };
+
 ```
 ## Experience
 
-  Volunteer at the Freeunion.online project
+  Volunteer at the [Freeunion.online](https://freeunion.online/) project
 
 
 ## Education
@@ -42,10 +53,10 @@ alert( result );
   1. VITEBSK STATE ORDER OF PEOPLES’ FRIENDSHIP MEDICAL UNIVERSITY
   2. MITSO
   * **Courses :**
-      * TeachMreSkills
-      * Udemy (React+Redux - профессиональная разработка)
-      * Udemy (Полный курс по JavaScript+React с нуля дло результата)
-      * Udemy (React JS.Практический курс 2020(Хуки,Классы, Redux))
+  1. TeachMreSkills
+  2. Udemy (React+Redux - профессиональная разработка)
+  3. Udemy (Полный курс по JavaScript+React с нуля дло результата)
+  4. Udemy (React JS.Практический курс 2020(Хуки,Классы, Redux))
 
 ## English
 
