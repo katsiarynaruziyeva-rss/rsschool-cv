@@ -40,7 +40,7 @@ alert( result );
 
   * **University:** 
       1. VITEBSK STATE ORDER OF PEOPLES’ FRIENDSHIP MEDICAL UNIVERSITY
-      2. MITSO
+      1. MITSO
   * **Courses :**
       * TeachMreSkills
       * Udemy (React+Redux - профессиональная разработка)
