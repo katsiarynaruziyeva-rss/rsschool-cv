@@ -5,126 +5,155 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shelter</title>
+    <link rel="stylesheet" href="/shelter/pages/main/style.css" />
 </head>
 <body>
-    <header>навигация
-        <hgroup class="logo">
-            <h1>Cozy Home</h1>
-            <p>Shelter for pets in Boston</p>
+    <div class="container">
+    <div class="header_block-only">
+    <header class="header context-block">
+        <hgroup>
+            <h1 class="logo">Cozy Home</h1>
+            <p class="logo_subscribe">Shelter for pets in Boston</p>
         </hgroup>
         <nav>
-            <ul>
-                <li>About the shelter</li>
-                <li>Our pets</li>
-                <li>Help the shelter</li>
-                <li>Contacts</li>
+            <ul class="nav">
+                <li class="nav_item"><a href="#about" class="active">About the shelter</a></li>
+                <li class="nav_item"><a href="#pets">Our pets</a></li>
+                <li class="nav_item"><a href="#help">Help the shelter</a></li>
+                <li class="nav_item"><a href="#contacts">Contacts</a></li>
             </ul>
         </nav>
     </header>
-    <section>
-        <div>
-            <h2>Not only people need a house</h2>
-            <p>We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
-            <button>Make a friend</button>
+    <section class="block-only context-block">
+        <div class="block-only_item">
+            <h2>Not only people <br>need a house</h2>
+            <p class="block-only_text">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
+            <button class="block-only_button">Make a friend</button>
         </div>
         <div>
-            <img>
+            <img class="block-only_img" src="/shelter/assets/images/start-screen-puppy.png" alt="dog">
         </div>
     </section>
-    <section>
-        <h3>About the shelter “Cozy House”</h3>
-        <p>Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.</p>
-        <p>We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.</p>
-    </section>
-    <section>
-        <h3>Our friends who are looking for a house</h3>
-        <div>slider
-            <div>
-                <img>
+</div>
+    <section class="about context-block" id="about">
+        <div><img class="about_img" src="/shelter/assets/images/about-pets.png"> </div>
+        <div class="about_item">
+           <h3>About the shelter <br> “Cozy House”</h3>
+           <p class="about_text1">Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.</p>
+           <p class="about_text2">We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.</p>
+        </div>
+        </section>
+    <section class="pets" id="pets">
+        <div class="context-block">
+        <h3 class="pets_tittle">Our friends who <br> are looking for a house</h3>
+        <div class="pets_slider">
+            <div class="pets_slider_item">
+                <img src="/shelter/assets/images/pets-katrine.png">
                 <h4>Katrine</h4>
-                <button>Learn more</button>
+                <button class="pets_button">Learn more</button>
             </div>
-            <div>
-                <img>
+            <div class="pets_slider_item">
+                <img src="/shelter/assets/images/pets-jennifer.png">
                 <h4>Jennifer</h4>
-                <button>Learn more</button>
+                <button class="pets_button">Learn more</button>
             </div>
-            <div>
-                <img>
+            <div class="pets_slider_item">
+                <img src="/shelter/assets/images/pets-woody.png">
                 <h4>Woody</h4>
-                <button>Learn more</button>
+                <button class="pets_button">Learn more</button>
             </div>
         </div>
-        <div>
-            <button>Get to know the rest</button>
+        <div class="get_to_know_button">
+            <button class="second_pets_button">Get to know the rest</button>
+        </div>
+    </div>
+    </section>
+    <section class="help context-block" id="help">
+        <h3>How you can help <br> our shelter</h3>
+        <div class="help_gallary">
+            <div class="help_item">
+                <img src="/shelter/assets/icons/icon-pet-food.png">
+                <p class="help_text">Pets food</p>
+            </div>
+            <div class="help_item">
+                <img src="/shelter/assets/icons/icon-transportation.png">
+                <p class="help_text">Transportation</p>
+            </div>
+            <div class="help_item">
+                <img src="/shelter/assets/icons/icon-toys.png">
+                <p class="help_text">Toys</p>
+            </div>
+            <div class="help_item">
+                <img src="/shelter/assets/icons/icon-bowls-and-cups.png">
+                <p class="help_text">Bowls and cups</p>
+            </div>
+            <div class="help_item">
+                <img src="/shelter/assets/icons/icon-shampoos (1).png">
+                <p class="help_text">Shampoos</p>
+            </div>
+            <div class="help_item">
+                <img src="/shelter/assets/icons/icon-vitamins.png">
+                <p class="help_text">Vitamins</p>
+            </div>
+            <div class="help_item">
+                <img src="/shelter/assets/icons/icon-medicines.png">
+                <p class="help_text">Medicins</p>
+            </div>
+            <div class="help_item">
+                <img src="/shelter/assets/icons/icon-collars-leashes.png">
+                <p class="help_text">Collars/leashes</p>
+            </div>
+            <div>
+                <img src="/shelter/assets/icons/icon-sleeping-area.png">
+                <p class="help_text">Sleeping areas</p>
+            </div>
         </div>
     </section>
-    <section>help
-        <h3>How you can help our shelter</h3>
-        <div>
-            <div>
-                <img>
-                <p>Pet food</p>
-            </div>
-            <div>
-                <img>
-                <p>transportation</p>
-            </div>
-            <div>
-                <img>
-                <p>Toys</p>
-            </div>
-            <div>
-                <img>
-                <p>Bowls and cups</p>
-            </div>
-            <div>
-                <img>
-                <p>Shampoos</p>
-            </div>
-            <div>
-                <img>
-                <p>Vitamins</p>
-            </div>
-            <div>
-                <img>
-                <p>Medicins</p>
-            </div>
-            <div>
-                <img>
-                <p>Collars/leashes</p>
-            </div>
-            <div>
-                <img>
-                <p>Sleeping areas</p>
-            </div>
+    <section class="in_addition">
+        <div class="context-block in_addition-block">
+        <div class="in_addition_img">
+            <img src="/shelter/assets/images/donation-dog.png">
         </div>
+        <div class="in_addition_item">
+            <h3>You can also <br> make a donation</h3>
+            <p class="name_bank">Name of the bank / Type of bank account</p>
+            <div class="card_item">
+                <img src="/shelter/assets/icons/credit-card.png">
+                <p class="card">8380 2880 8028 8791 7435</p>
+            </div>
+            <p class="info">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+        </div>
+    </div>
     </section>
-    <section>in additional
-        <div>
-            <img>
+    <footer id="contacts">
+        <div class="context-block footer-block">
+        <div class="footer_contacts">
+            <h3 class="footer_tittle">For questions and suggestions</h3>
+            <div class="email">
+                <div><img src="/shelter/assets/icons/mail.png"></div>
+                <div class="email_adress">email@shelter.com</div>
+            </div>
+            <div class="tel">
+                <div><img src="/shelter/assets/icons/phone.png"></div>
+                <div class="email_adress">+13 674 567 75 54</div>
+            </div>
+        </div>
+        <div class="footer_adress">
+            <h3 class="footer_tittle">We are waiting for your visit</h3>
+            <div class="email">
+                <div><img src="/shelter/assets/icons/pin.png"></div>
+                <div class="email_adress">1 Central Street, Boston (entrance from the store)</div>
+            </div>
+            <div class="tel">
+                <div><img src="/shelter/assets/icons/pin.png"></div>
+                <div class="email_adress">18 South Park, London </div>
+            </div>
         </div>
         <div>
-            <h3>You can also make a donation</h3>
-            <p>Name of the bank / Type of bank account</p>
-            <p>8380 2880 8028 8791 7435</p>
-            <p>Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+            <img src="/shelter/assets/images/footer-puppy.png">
         </div>
-    </section>
-    <footer>
-        <div>
-            <h3>For questions and suggestions</h3>
-            <address>email@shelter.com</address>
-            <adress>+13 674 567 75 54</adress>
-        </div>
-        <div>
-            <h3>We are waiting for your visit</h3>
-            <adress>1 Central Street, Boston (entrance from the store)</adress>
-            <address>18 South Park, London </address>
-        </div>
-        <div>
-            <img>
-        </div>
+    </div>
     </footer>
+</div>
 </body>
 </html>
