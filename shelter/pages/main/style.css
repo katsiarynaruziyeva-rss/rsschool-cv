@@ -129,6 +129,9 @@ body {
     background: #F1CDB3;
     border-radius: 20.83vw;
   }
+  .block-only_button:hover{
+      background-color: #ecb38a;
+  }
   .block-only_button a{
       text-decoration: none;
       font-family: 'Georgia';
@@ -341,6 +344,9 @@ color: #545454;
   .card{
       margin: 0;
       margin-left: 15px;
+  }
+  .card_item:hover{
+      background-color: #f0b891;
   }
   .card a{
       text-decoration: none;
