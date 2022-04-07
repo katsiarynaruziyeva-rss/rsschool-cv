@@ -6,12 +6,15 @@ body {
     flex-wrap: wrap;
     max-width: 100%;
   }
-  .container{
-      width: 1280px;
+  .context-block{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-right: 60px;
   }
   .header_pets{
-      padding: 30px 0;
-    margin: 0 40px;
+      padding-top: 30px;
+      padding-bottom: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -87,9 +90,9 @@ body {
   .our_pets{
       background-color: #F6F6F6;
   }
-  .context-block_pets{
-      margin: 0 40px;
-      padding: 80px 0 100px;
+  .pets-block{
+      padding-top: 80px;
+      padding-bottom: 100px;
       text-align: center;
   }
   h3{
@@ -108,7 +111,7 @@ body {
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-between;
-      margin-bottom: 45px;
+      padding-bottom: 45px;
   }
   .our_pets_slider_item{
     background-color: #FAFAFA;
@@ -169,15 +172,22 @@ body {
       color: black;
       border: 2px solid #F1CDB3;
   }
-  .active{
+  .page_number:active,
+  .page_number:hover{
+      cursor: pointer;
+    background-color: #ecae82
+  }
+  .active:hover{
     border: 2px solid #F1CDB3;
     color: black;
+    background-color: #ecae82
   }
   footer{
     background-image: url(/shelter/assets/images/footer-gradient-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .our_pets_footer{
-    margin: 0 40px;
     padding-top: 40px;
     display: flex;
     justify-content: space-between;
@@ -187,11 +197,11 @@ body {
 }
 .footer_contacts{
     padding-top: 16px;
-    width: 21.72vw;
+    width: 280px;
 }
 .footer_adress{
     padding-top: 16px;
-    width: 23.59vw;
+    width: 302px;
 }
 .email{
     margin: 40px 0;
@@ -221,3 +231,21 @@ body {
 .footer_img{
     height: 100%;
 }
+/* @font-face {
+    font-family: 'Georgia'; 
+    src: url("/shelter/assets/fonts/georgia/georgia-regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+            @font-face{
+                font-family: 'Arial';
+                src: url("/shelter/assets/fonts/arial/arial-regular.ttf") format("truetype");
+                font-style: normal; 
+                font-weight: normal; 
+                }
+                @font-face{
+                    font-family: 'Arial';
+                    src: url("/shelter/assets/fonts/arial/arial-italic.ttf") format("truetype");
+                    font-style: normal; 
+                    font-weight: normal; 
+                    } */
