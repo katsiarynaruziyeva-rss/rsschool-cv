@@ -16,6 +16,9 @@ body {
     flex-direction: row;
     justify-content: space-between;
   }
+  hgroup a{
+      text-decoration: none;
+  }
   .logo_pets{
     margin: 0;
     margin-bottom: 10px;
@@ -51,9 +54,11 @@ body {
   .nav_item_pets:last-child{
       margin-right: 0;
   }
-  .nav_item_pets:hover{
-      content: '';
-  }
+  a.active{
+    border: none;
+    display: block;
+    border-bottom: 3px solid #F1CDB3;
+}
   .nav_item_pets a{
     text-decoration: none;
     font-family: 'Arial';
@@ -97,3 +102,122 @@ body {
     color: #545454;
     margin: 0;
   }
+  .our_pets_slider{
+      padding-top: 45px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 45px;
+  }
+  .our_pets_slider_item{
+    background-color: #FAFAFA;
+    text-align: center;
+  }
+  .our_pets_slider_item:hover,
+  .our_pets_slider_item:hover .our_pets_button {
+      cursor: pointer;
+      background-color: rgb(241, 205, 179, 0.5); 
+  }
+  
+  h4{
+    margin: 0;
+    padding: 30px 0;
+    text-align: center;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+  }
+  .our_pets_button{
+    width: 187px;
+    padding: 15px 0;
+    border: 2px solid #F1CDB3;
+    background-color: #FAFAFA;
+    border-radius: 100px;
+    margin-bottom: 30px;
+  }
+  .our_pets_slider_item:nth-child(1),
+  .our_pets_slider_item:nth-child(2),
+  .our_pets_slider_item:nth-child(3),
+  .our_pets_slider_item:nth-child(4){
+      margin-bottom: 30px;
+  }
+  .our_pets_buttons{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+  .slider_pets_button{
+      width: 52px;
+      height: 52px;
+      border: 2px solid #CDCDCD;
+      box-sizing: border-box;
+      border-radius: 100px;
+      color: #CDCDCD;
+      margin-right: 20px;
+      margin-bottom: 0;
+  }
+  .our_pets_button:last-child{
+      margin-right: 0;
+  }
+  .page_number{
+      background-color: #F1CDB3;
+      color: black;
+      border: 2px solid #F1CDB3;
+  }
+  .active{
+    border: 2px solid #F1CDB3;
+    color: black;
+  }
+  footer{
+    background-image: url(/shelter/assets/images/footer-gradient-background.png);
+}
+.our_pets_footer{
+    margin: 0 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_tittle{
+    color: white;
+}
+.footer_contacts{
+    padding-top: 16px;
+    width: 21.72vw;
+}
+.footer_adress{
+    padding-top: 16px;
+    width: 23.59vw;
+}
+.email{
+    margin: 40px 0;
+    display: flex;
+}
+.email_adress{
+    margin-left: 20px;
+}
+.email_adress a{
+    text-decoration: none;
+    font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+  
+}
+.email{
+    align-items: center;
+}
+.tel{
+    display: flex;
+    align-items: center;
+}
+.footer_img{
+    height: 100%;
+}

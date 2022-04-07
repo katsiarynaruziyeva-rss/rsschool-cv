@@ -24,6 +24,10 @@ body {
       justify-content: space-between;
       padding: 60px 0 63px
     }
+    .logo_link{
+        cursor: pointer;
+        text-decoration: none;
+    }
   .logo{
     margin: 0;
     margin-bottom: 10px;
@@ -73,6 +77,10 @@ body {
     position: relative;
     cursor: pointer;
   }
+  a.active{
+      display: block;
+      border-bottom: 3px solid #F1CDB3;
+  }
   .nav_item a:after{
     display: block;
     position: absolute;
@@ -120,7 +128,10 @@ body {
     padding: 15px 0;
     background: #F1CDB3;
     border-radius: 20.83vw;
-    font-family: 'Georgia';
+  }
+  .block-only_button a{
+      text-decoration: none;
+      font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -135,9 +146,6 @@ body {
       display: flex;
       justify-content: space-between;
       padding: 80px 175px 100px;
-  }
-  .about_img{
-      
   }
   .about_item{
       margin-left: 9.38vw;
@@ -175,14 +183,38 @@ body {
       text-align: center;
       padding-bottom: 60px;
   }
+  .slider{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .slider_button{
+    width: 52px;
+    height: 52px;
+      border: 2px solid #F1CDB3;
+      box-sizing: border-box;
+      border-radius: 100px;
+      color: black;
+      background-color: #F6F6F6;;
+  }
   .pets_slider{
       display: flex;
-      padding: 0 105px 60px;
+      padding: 0 0 60px;
       justify-content: space-between;
   }
   .pets_slider_item{
       background-color: #FAFAFA;
       text-align: center;
+      margin-right: 90px;
+  }
+  .pets_slider_item:last-child{
+      margin-right: 0;
+  }
+  .pets_slider_item:hover,
+  .pets_slider_item:hover .pets_button {
+      cursor: pointer;
+      background-color: rgb(241, 205, 179, 0.5); 
   }
   h4{
     margin: 0;
@@ -213,6 +245,9 @@ body {
       border-radius: 100px;
       border: none;
       padding: 15px 0;
+  }
+  .second_pets_button a{
+      text-decoration: none;
       font-family: 'Georgia';
 font-style: normal;
 font-weight: 400;
@@ -294,6 +329,9 @@ color: #545454;
   .card{
       margin: 0;
       margin-left: 15px;
+  }
+  .card a{
+      text-decoration: none;
       font-family: 'Georgia';
 font-style: normal;
 font-weight: 400;
@@ -335,6 +373,7 @@ color: #B2B2B2;
   .email{
       margin: 40px 0;
       display: flex;
+      align-items: center;
   }
   .email_adress{
     font-family: 'Georgia';
@@ -345,7 +384,25 @@ color: #B2B2B2;
     letter-spacing: 0.06em;
     color: #F1CDB3;
     margin-left: 20px;
+    text-align: center;
+  }
+  .email_adress a{
+      text-decoration: none;
+      width: 100%;
+      text-decoration: none;
+      font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    text-align: center;
   }
   .tel{
       display: flex;
+      align-items: center;
   }
+  .footer_img{
+    height: 100%;
+}
