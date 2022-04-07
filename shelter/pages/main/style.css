@@ -14,15 +14,15 @@ body {
     .context-block{
       max-width: 1280px;
       margin: 0 auto;
-      padding-left: 60px;
-      padding-right: 60px;
+      padding-left: 3.13vw;
+      padding-right: 3.13vw;
     }
     .header{
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      padding-top: 60px;
-      padding-bottom: 63px;
+      padding-top: 2.7vw;
+      padding-bottom: 2.98vw;
     }
     .logo_link{
         cursor: pointer;
@@ -30,7 +30,7 @@ body {
     }
   .logo{
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0.78vw;
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -54,11 +54,11 @@ body {
     display: flex;
     flex-direction: row;
     margin: 0;
-    padding-top: 16px;
+    padding-top: 1.25vw;
   }
   .nav_item{
     margin: 0;
-    margin-right: 35px;
+    margin-right: 2.73vw;
   }
   .nav_item:last-child{
       margin-right: 0;
@@ -101,8 +101,8 @@ body {
       justify-content: space-between;
   }
   .block-only_item{
-      width: 460px;
-      padding-top: 163px;
+      width: 35.94vw;
+      padding-top: 12.73vw;
   }
   h2{
     font-family: 'Georgia';
@@ -112,7 +112,7 @@ body {
     line-height: 130%;
     color: #FFFFFF;
     margin: 0;
-    padding-bottom: 42px; 
+    padding-bottom: 1.99vw; 
   }
   .block-only_text{
     font-family: 'Arial';
@@ -121,11 +121,11 @@ body {
     font-size: 15px;
     line-height: 160%;
     color: #CDCDCD;
-    padding-bottom: 42px;
+    padding-bottom: 1.99vw;
   }
   .block-only_button{
-    width: 207px;
-    padding: 15px 0;
+    width: 16.17vw;
+    padding: 0.71vw 0;
     background: #F1CDB3;
     border-radius: 20.83vw;
   }
@@ -148,12 +148,12 @@ body {
   .about{
       display: flex;
       justify-content: center;
-      padding-top: 80px;
-      padding-bottom:100px;
+      padding-top: 6.25vw;
+      padding-bottom: 7.81vw;
   }
   .about_item{
-      margin-left: 120px;
-      width: 430px;
+      margin-left: 9.38vw;
+      width: 33.59vw;
   }
   h3{
     font-family: 'Georgia';
@@ -166,7 +166,7 @@ body {
     margin: 0;
   }
   .about_text1{
-    margin: 25px 0;
+    margin: 1.95vw 0;
   }
   .about_text2{
     margin: 0;
@@ -184,12 +184,12 @@ body {
     background: #F6F6F6;
   }
   .pets_block{
-    padding-top: 80px;
-    padding-bottom: 100px;
+    padding-top: 6.25vw;
+    padding-bottom: 7.81vw;
   }
   .pets_tittle{
       text-align: center;
-      padding-bottom: 60px;
+      padding-bottom: 4.69vw;
   }
   .slider{
       display: flex;
@@ -198,11 +198,11 @@ body {
       align-items: center;
   }
   .slider_button{
-    width: 52px;
-    height: 52px;
+    width: 4.06vw;
+    height: 4.06vw;
       border: 2px solid #F1CDB3;
       box-sizing: border-box;
-      border-radius: 100px;
+      border-radius: 7.81vw;
       color: black;
       background-color: #F6F6F6;
   }
@@ -212,13 +212,13 @@ body {
   }
   .pets_slider{
       display: flex;
-      padding: 0 0 60px;
+      padding: 0 0 4.69vw;
       justify-content: space-between;
   }
   .pets_slider_item{
       background-color: #FAFAFA;
       text-align: center;
-      margin-right: 90px;
+      margin-right: 7.03vw;
   }
   .pets_slider_item:last-child{
       margin-right: 0;
@@ -230,7 +230,7 @@ body {
   }
   h4{
     margin: 0;
-    padding: 30px 0;
+    padding: 2.34vw 0;
     text-align: center;
     font-family: 'Georgia';
     font-style: normal;
@@ -241,22 +241,22 @@ body {
     color: #545454;
   }
   .pets_button{
-      width: 187px;
-      padding: 15px 0;
+      width: 14.61vw;
+      padding: 1.17vw 0;
       border: 2px solid #F1CDB3;
       background-color: #FAFAFA;
-      border-radius: 100px;
-      margin-bottom: 30px;
+      border-radius: 7.81vw;
+      margin-bottom: 2.34vw;
   }
   .get_to_know_button{
     text-align: center;
   }
   .second_pets_button{
-      width: 261px;
+      width: 20.39vw;
       background-color: #F1CDB3;
-      border-radius: 100px;
+      border-radius: 7.81vw;
       border: none;
-      padding: 15px 0;
+      padding: 1.17vw 0;
   }
   .second_pets_button:active,
   .second_pets_button:hover{
@@ -273,18 +273,19 @@ letter-spacing: 0.06em;
 color: #292929;
   }
   .help{
-      padding-top: 80px;
-      padding-bottom:  100px;
+      padding-top: 6.25vw;
+      padding-bottom: 7.81vw;
       text-align: center;
   }
   .help_gallary{
-      padding: 60px 27px 0;
+      padding: 4.69vw 0 0;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      align-items:center;
   }
   .help_item{
-      margin: 0 60px 0 60px;
+      margin: 0 4.69vw;
       padding-bottom: 55px;
   }
   .help_item:nth-child(6),
@@ -294,7 +295,7 @@ color: #292929;
       padding-bottom: 0;
   }
   .help_text{
-      padding-top: 17px;
+      padding-top: 1.33vw;
       margin: 0;
       font-family: 'Georgia';
 font-style: normal;
@@ -309,19 +310,19 @@ color: #545454;
       background-color: #F6F6F6;
   }
   .addition{
-    padding-top: 80px;
-    padding-bottom: 100px;
+    padding-top: 6.25vw;
+    padding-bottom: 7.81vw;
     display: flex;
     justify-content: center; 
   }
   .in_addition_img{
-      margin-right: 30px;
+      margin-right: 2.34vw;
   }
   .in_addition_item{
-      width: 380px;
+      width: 29.69vw;
   }
   .name_bank{
-      margin: 20px 0;
+      margin: 1.64vw 0 1.48vw;
       font-family: 'Georgia';
 font-style: normal;
 font-weight: 400;
@@ -336,14 +337,14 @@ color: #545454;
     text-align: center;
     display: flex;
     justify-content: center;
-    border-radius: 9px;
-    width: 349px;
-    padding: 10px 0;
+    border-radius: 0.70vw;
+    width: 27.27vw;
+    padding: 0.78vw 0;
     background-color: #F1CDB3;
   }
   .card{
       margin: 0;
-      margin-left: 15px;
+      margin-left: 1.17vw;
   }
   .card_item:hover{
       background-color: #f0b891;
@@ -360,7 +361,7 @@ letter-spacing: 0.06em;
 color: #545454;
   }
   .info{
-      margin: 20px 0 0 0;
+      margin: 1.56vw 0 0 0;
       font-family: 'Arial';
 font-style: italic;
 font-weight: 400;
@@ -375,7 +376,7 @@ color: #B2B2B2;
     background-size: cover;
   }
   .footer-block{
-      padding-top: 40px;
+      padding-top: 3.13vw;
       display: flex;
       justify-content: space-between;
   }
@@ -383,15 +384,15 @@ color: #B2B2B2;
       color: white;
   }
   .footer_contacts{
-      padding-top: 16px;
-      width: 280px;
+      padding-top: 1.25vw;
+      width: 21.88vw;
   }
   .footer_adress{
-      padding-top: 16px;
-      width: 302px;
+      padding-top: 1.25vw;
+      width: 23.59vw;
   }
   .email{
-      margin: 40px 0;
+      margin: 3.13vw 0;
       display: flex;
       align-items: center;
   }
@@ -422,6 +423,9 @@ color: #B2B2B2;
   .tel{
       display: flex;
       align-items: center;
+  }
+  .location{
+      margin: 2.66vw 0 2.50vw;
   }
   .footer_img{
     height: 100%;
